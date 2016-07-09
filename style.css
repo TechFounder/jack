@@ -1,9 +1,26 @@
 /* Background color of side, off-canvas section */
-#my-info {
+/*#my-info {
   background-color: none;
-}
+}*/
 
 /* Background color of top, callout section */
 .callout.primary {
   background-color: none;
+}
+
+.main-section {
+  background: url("http://cdn1-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.main-section-text {
+  padding-top: 40vh;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .main-section-text {
+    padding-top: 20vh;
+  }
 }
